@@ -62,8 +62,8 @@ class Reader {
             System.out.println(name + " взял " + numbook + " книги");
         }
     }
-
-    public void takeBook(String[] namebook) {
+    //Изменил
+    public void takeBook(String... namebook) {
         System.out.print(name + " взял книги: ");
         for (int i = 0; i < namebook.length; i++) {
             System.out.print(namebook[i]);
@@ -81,8 +81,8 @@ class Reader {
             System.out.println(name + " вернул " + numbook + " книги");
         }
     }
-
-    public void returnBook(String[] namebook) {
+    //Изменил
+    public void returnBook(String... namebook) {
         System.out.print(name + " вернул книги: ");
         for (int i = 0; i < namebook.length; i++) {
             System.out.print(namebook[i]);
